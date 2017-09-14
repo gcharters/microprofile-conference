@@ -1,3 +1,5 @@
+= Conference API specification
+
 = Introduction
 
 The application consists of several Microservices and a Web-Application managing a conference.
