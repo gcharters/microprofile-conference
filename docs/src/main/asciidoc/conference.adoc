@@ -1,4 +1,4 @@
-= Conference specifications
+= Conference API specifications
 Development
 :localdate:
 :doctype: book
@@ -17,8 +17,6 @@ The application consists of several Microservices and a Web-Application managing
 * Speaker service. Manage speakers, Bios, etc
 * Schedule Service.  Service to manage session schedules
 * Front-end application
-
-image::architecture.png[title="Overall Architecture"]
 
 == Speaker Service
 
@@ -62,8 +60,6 @@ image::architecture.png[title="Overall Architecture"]
      List<Session> speakersForSession(Session Id)
 
 == Session Schedule Service
-
-image::schedule.png[title="Schedule diagram"]
 
    Schedule
      - Id (generated)
